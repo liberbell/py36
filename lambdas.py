@@ -48,3 +48,7 @@ print(student_2)
 
 student_3 = create_student_record_fn("Alex", "Computer Science")
 print(student_3)
+
+create_student_list_fn = lambda *args : [name for name in args]
+student_list = create_student_list_fn("George", "Ringo", "Ed")
+print(student_list)
