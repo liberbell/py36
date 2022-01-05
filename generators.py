@@ -7,3 +7,6 @@ def myGenerator():
 
     print("Third item")
     yield 30
+
+gen = myGenerator()
+print(gen)
