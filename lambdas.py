@@ -57,3 +57,6 @@ create_student_record_fn = lambda **kwargs : {key: value for key, value in kwarg
 
 student_1 = create_student_record_fn(name="Bob", age=23)
 print(student_1)
+
+student_2 = create_student_record_fn(name="Alex", age=28, gpa=4.1)
+print(student_2)
