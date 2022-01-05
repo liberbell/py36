@@ -60,3 +60,7 @@ print(student_1)
 
 student_2 = create_student_record_fn(name="Alex", age=28, gpa=4.1)
 print(student_2)
+
+numbers = [2, -23, 45, 20, -19, 73, -89]
+positive_numbers = filter(lambda x: x > 0, numbers)
+print(positive_numbers)
