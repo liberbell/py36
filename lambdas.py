@@ -21,3 +21,6 @@ def cube_root(number):
 
 def raise_to_n(number):
     return number ** n
+
+square = lambda x: x ** 2
+cube = lambda x: x ** 3
