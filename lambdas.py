@@ -63,4 +63,4 @@ print(student_2)
 
 numbers = [2, -23, 45, 20, -19, 73, -89]
 positive_numbers = filter(lambda x: x > 0, numbers)
-print(positive_numbers)
+print(list(positive_numbers))
