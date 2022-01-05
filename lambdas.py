@@ -27,3 +27,5 @@ cube = lambda x: x ** 3
 raise_to_n = lambda x, n: x ** n
 
 print(square(3))
+print(cube(9))
+print(raise_to_n(2, 16))
