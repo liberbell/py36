@@ -64,3 +64,8 @@ print(student_2)
 numbers = [2, -23, 45, 20, -19, 73, -89]
 positive_numbers = filter(lambda x: x > 0, numbers)
 print(list(positive_numbers))
+
+sales_map = [
+    {"country": "Mexico", "sales": 234.5},
+    {"country": "United States", "sales": 567.5}
+]
