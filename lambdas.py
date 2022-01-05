@@ -52,3 +52,8 @@ print(student_3)
 create_student_list_fn = lambda *args : [name for name in args]
 student_list = create_student_list_fn("George", "Ringo", "Ed")
 print(student_list)
+
+create_student_record_fn = lambda **kwargs : {key: value for key, value in kwargs.items()}
+
+student_1 = create_student_record_fn(name="Bob", age=23)
+print(student_1)
