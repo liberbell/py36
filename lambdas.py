@@ -32,3 +32,5 @@ print(raise_to_n(2, 16))
 
 create_list_fn = lambda some_string, times: [some_string for _ in range(times)]
 print(create_list_fn("Yeah!", 4))
+
+print((lambda x: x * 10)(33))
