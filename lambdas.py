@@ -67,5 +67,7 @@ print(list(positive_numbers))
 
 sales_map = [
     {"country": "Mexico", "sales": 234.5},
-    {"country": "United States", "sales": 567.5}
+    {"country": "United States", "sales": 567.5},
+    {"country": "Canada", "sales": 110.5}
 ]
+
