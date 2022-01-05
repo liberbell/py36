@@ -18,3 +18,6 @@ def square_root(number):
 
 def cube_root(number):
     return number ** (1/3)
+
+def raise_to_n(number):
+    return number ** n
