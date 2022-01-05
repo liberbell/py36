@@ -70,4 +70,5 @@ sales_map = [
     {"country": "United States", "sales": 567.5},
     {"country": "Canada", "sales": 110.5}
 ]
-
+countries = map(lambda x: x["country"], sales_map)
+print(countries)
