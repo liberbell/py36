@@ -39,3 +39,9 @@ print((lambda x, y: x % y)(33, 5))
 create_student_record_fn = lambda name, major, university: {"name": name, "major": major, "university": university}
 student_1 = create_student_record_fn("Bob", "History", "Cornell")
 print(student_1)
+
+create_student_record_fn = \
+    lambda name, major = "History", university = "Cornell": {"name": name, "major": major, "university": university}
+
+student_2 = create_student_record_fn("Eric")
+print(student_2)
