@@ -34,3 +34,4 @@ create_list_fn = lambda some_string, times: [some_string for _ in range(times)]
 print(create_list_fn("Yeah!", 4))
 
 print((lambda x: x * 10)(33))
+print((lambda x, y: x * y)(33, 5))
