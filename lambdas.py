@@ -45,3 +45,6 @@ create_student_record_fn = \
 
 student_2 = create_student_record_fn("Eric")
 print(student_2)
+
+student_3 = create_student_record_fn("Alex", "Computer Science")
+print(student_3)
