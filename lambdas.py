@@ -72,3 +72,4 @@ sales_map = [
 ]
 countries = map(lambda x: x["country"], sales_map)
 print(countries)
+print(list(countries))
