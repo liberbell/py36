@@ -10,3 +10,4 @@ def myGenerator():
 
 gen = myGenerator()
 print(gen)
+print(next(gen))
