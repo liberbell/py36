@@ -24,3 +24,4 @@ def raise_to_n(number):
 
 square = lambda x: x ** 2
 cube = lambda x: x ** 3
+raise_to_n = lambda x, n: x ** n
