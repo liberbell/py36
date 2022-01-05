@@ -13,4 +13,22 @@ print(gen)
 print(next(gen))
 print(next(gen))
 print(next(gen))
+# print(next(gen))
+
+def myGenerator():
+    print("First item")
+    yield 10
+
+    return
+
+    print("Second item")
+    yield 20
+
+    print("Third item")
+    yield 30
+
+gen = myGenerator()
+
+print(next(gen))
+print(next(gen))
 print(next(gen))
