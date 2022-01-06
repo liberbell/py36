@@ -113,3 +113,4 @@ def message_receiver():
 recever = message_receiver()
 print(recever)
 recever.send(None)
+recever.send("How are you")
