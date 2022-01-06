@@ -109,3 +109,6 @@ def message_receiver():
     while True:
         value = yield
         print(f"Receved this message: {value}")
+
+recever = message_receiver()
+print(recever("hello"))
