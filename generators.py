@@ -70,3 +70,9 @@ print(cube_tuple)
 gen = generate_cubes()
 for cube in gen:
     print(cube)
+
+def generate_powers_of_two(limit):
+    for num in range(limit):
+        yield 2 ** num
+
+print(generate_powers_of_two(8))
