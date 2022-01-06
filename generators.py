@@ -93,3 +93,11 @@ print(gen)
 
 for num in gen:
     print(num)
+
+def arithmetic_progression(start, step, limit):
+    count = 1
+    while count <= limit:
+        yield start
+
+        start += step
+        count += 1
