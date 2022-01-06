@@ -54,7 +54,7 @@ def generate_cubes():
     for n in range(10):
         yield n ** 3
 
-# gen = generate_cubes()
+gen = generate_cubes()
 # print(next(gen))
 
 cube_list = list(gen)
