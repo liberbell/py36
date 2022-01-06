@@ -90,3 +90,6 @@ def generate_inifinite_power_of_two():
 
 gen = generate_inifinite_power_of_two()
 print(gen)
+
+for num in gen:
+    print(num)
