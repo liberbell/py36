@@ -3,3 +3,4 @@ def outer_fn():
         print("My favorite programming language is Python.")
 
     print("Executing the outer function")
+    display_favorite_programming_language()
