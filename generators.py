@@ -66,3 +66,7 @@ print(another_cube_list)
 gen = generate_cubes()
 cube_tuple = tuple(gen)
 print(cube_tuple)
+
+gen = generate_cubes()
+for cube in gen:
+    print(cube)
