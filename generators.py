@@ -111,4 +111,4 @@ def message_receiver():
         print(f"Receved this message: {value}")
 
 recever = message_receiver()
-print(recever("hello"))
+print(recever.send("hello"))
