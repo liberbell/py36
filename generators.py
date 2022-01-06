@@ -88,11 +88,11 @@ def generate_inifinite_power_of_two():
         num = num + 1
         yield 2 ** num
 
-gen = generate_inifinite_power_of_two()
-print(gen)
+# gen = generate_inifinite_power_of_two()
+# print(gen)
 
-for num in gen:
-    print(num)
+# for num in gen:
+#     print(num)
 
 def arithmetic_progression(start, step, limit):
     count = 1
@@ -104,3 +104,8 @@ def arithmetic_progression(start, step, limit):
 
 for i in arithmetic_progression(1, 2, 10):
     print(i)
+
+def message_receiver():
+    while True:
+        value = yield
+        print(f"Receved this message: {value}")
