@@ -59,3 +59,6 @@ gen = generate_cubes()
 
 cube_list = list(gen)
 print(cube_list)
+
+another_cube_list = list(gen)
+print(another_cube_list)
