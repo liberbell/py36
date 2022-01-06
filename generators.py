@@ -101,3 +101,6 @@ def arithmetic_progression(start, step, limit):
 
         start += step
         count += 1
+
+for i in arithmetic_progression(1, 2, 10):
+    print(i)
