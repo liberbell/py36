@@ -48,3 +48,11 @@ gen = generate_sequence()
 print(next(gen))
 print(next(gen))
 print(next(gen))
+print("----")
+
+def generate_cubes():
+    for n in range(10):
+        yield n ** 3
+
+gen = generate_cubes()
+print(next(gen))
