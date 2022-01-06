@@ -78,3 +78,6 @@ def generate_powers_of_two(limit):
 print(generate_powers_of_two(8))
 gen = generate_powers_of_two(10)
 print(gen)
+
+for i in gen:
+    print(i)
