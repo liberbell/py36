@@ -32,16 +32,17 @@ gen = myGenerator()
 print(next(gen))
 # print(next(gen))
 # print(next(gen))
+print("----")
 
 def generate_sequence():
     n = 1
-    yield 10
+    yield n
 
     n = n + 2
-    yield 20
+    yield n
 
     n = n + 3
-    yield 30
+    yield n
 
 gen = generate_sequence()
 print(next(gen))
