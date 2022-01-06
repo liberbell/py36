@@ -76,3 +76,5 @@ def generate_powers_of_two(limit):
         yield 2 ** num
 
 print(generate_powers_of_two(8))
+gen = generate_powers_of_two(10)
+print(gen)
