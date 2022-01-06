@@ -62,3 +62,7 @@ print(cube_list)
 
 another_cube_list = list(gen)
 print(another_cube_list)
+
+gen = generate_cubes()
+cube_tuple = tuple(gen)
+print(cube_tuple)
