@@ -81,3 +81,9 @@ print(gen)
 
 for i in gen:
     print(i)
+
+def generate_inifinite_power_of_two(limit):
+    num = 0
+    while True:
+        num = num + 1
+        yield 2 ** num
