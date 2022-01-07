@@ -7,3 +7,4 @@ def outer_fn():
 
 # print(outer_fn())
 outer_fn()
+display_favorite_programming_language()
