@@ -4,3 +4,6 @@ def outer_fn():
 
     print("Executing the outer function")
     display_favorite_programming_language()
+
+# print(outer_fn())
+outer_fn()
