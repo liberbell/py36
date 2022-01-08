@@ -27,3 +27,6 @@ def get_favorite_programming_language():
 
     print("Executing the outer function")
     return display_favorite_programming_language
+
+display_fn = get_favorite_programming_language()
+display_fn()
