@@ -39,16 +39,16 @@ def get_favorite_programming_language(favorite_language):
     print("Executing the outer function")
     return display_favorite_programming_language
 
-display_function_python = get_favorite_programming_language("Python")
-display_function_python()
+# display_function_python = get_favorite_programming_language("Python")
+# display_function_python()
 
-display_function_java = get_favorite_programming_language("Java")
-display_function_java()
+# display_function_java = get_favorite_programming_language("Java")
+# display_function_java()
 
 del get_favorite_programming_language
 # get_favorite_programming_language()
 
-display_function_python()
+# display_function_python()
 
 def add_employee_to_department(department_name):
     employee_list = []
@@ -58,5 +58,5 @@ def add_employee_to_department(department_name):
 
         print(f"Add {employee_name} to {department_name}")
         print(f"{department_name} employee: {employee_list}")
-        
+
     return add_employee
