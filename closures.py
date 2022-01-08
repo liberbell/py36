@@ -38,3 +38,6 @@ def get_favorite_programming_language(favorite_language):
 
     print("Executing the outer function")
     return display_favorite_programming_language
+
+display_function_python = get_favorite_programming_language("Python")
+display_function_python()
