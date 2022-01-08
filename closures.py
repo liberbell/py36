@@ -62,4 +62,4 @@ def add_employee_to_department(department_name):
     return add_employee
 
 add_to_sales_fn = add_employee_to_department("sales")
-add_to_sales_fn
+print(add_to_sales_fn)
