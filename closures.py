@@ -49,3 +49,6 @@ del get_favorite_programming_language
 # get_favorite_programming_language()
 
 display_function_python()
+
+def add_employee_to_department(department_name):
+    employee_list = []
