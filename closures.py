@@ -28,5 +28,13 @@ def get_favorite_programming_language():
     print("Executing the outer function")
     return display_favorite_programming_language
 
-display_fn = get_favorite_programming_language()
-display_fn()
+# display_fn = get_favorite_programming_language()
+# display_fn()
+
+def get_favorite_programming_language(favorite_language):
+
+    def display_favorite_programming_language():
+        print(f"My favorite programming language is {favorite_language}.")
+
+    print("Executing the outer function")
+    return display_favorite_programming_language
