@@ -18,3 +18,4 @@ def get_favorite_programming_language():
 
 display_fn = get_favorite_programming_language()
 print(display_fn)
+display_fn()
