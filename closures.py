@@ -1,9 +1,9 @@
-def outer_fn():
-    def display_favorite_programming_language():
-        print("My favorite programming language is Python.")
+# def outer_fn():
+#     def display_favorite_programming_language():
+#         print("My favorite programming language is Python.")
 
-    print("Executing the outer function")
-    return display_favorite_programming_language()
+#     print("Executing the outer function")
+#     return display_favorite_programming_language()
 
 # print(outer_fn())
 # outer_fn()
