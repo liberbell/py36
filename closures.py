@@ -46,4 +46,6 @@ display_function_python = get_favorite_programming_language("Java")
 display_function_python()
 
 del get_favorite_programming_language
-get_favorite_programming_language()
+# get_favorite_programming_language()
+
+display_function_python()
