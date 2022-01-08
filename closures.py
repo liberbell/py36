@@ -41,3 +41,6 @@ def get_favorite_programming_language(favorite_language):
 
 display_function_python = get_favorite_programming_language("Python")
 display_function_python()
+
+display_function_python = get_favorite_programming_language("Java")
+display_function_python()
