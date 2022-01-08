@@ -52,3 +52,9 @@ display_function_python()
 
 def add_employee_to_department(department_name):
     employee_list = []
+    def add_employee(employee_name):
+        employee_list.append(employee_name)
+
+        print(f"Add {employee_name} to {department_name}")
+        print(f"{department_name} employee: {employee_list}")
+    return add_employee
