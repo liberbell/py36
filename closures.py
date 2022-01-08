@@ -6,5 +6,5 @@ def outer_fn():
     return display_favorite_programming_language()
 
 # print(outer_fn())
-outer_fn()
-display_favorite_programming_language()
+# outer_fn()
+# display_favorite_programming_language()
