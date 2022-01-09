@@ -1,4 +1,4 @@
-@non_negative_argument
+# @non_negative_argument
 def compute_rectangle_area(lenght, breadth):
     return lenght * breadth
 
@@ -11,3 +11,6 @@ def non_negative_argument(decorated_fn):
             return decorated_fn(*args)
 
         return check_non_negative
+
+def display_important_message():
+    print("This is an important message.")
