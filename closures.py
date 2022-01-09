@@ -64,7 +64,7 @@ def add_employee_to_department(department_name):
 add_to_sales_fn = add_employee_to_department("sales")
 print(add_to_sales_fn)
 
-add_to_sales_fn = add_employee_to_department("engineering")
+add_to_engineering_fn = add_employee_to_department("engineering")
 print(add_to_sales_fn)
 
 add_to_sales_fn("Alex")
