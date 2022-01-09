@@ -21,3 +21,8 @@ def display_boring_message():
     print("This is a boring message....")
 
 display_boring_message()
+
+def display_entertaing_message():
+    print("This is an entertaining message....")
+
+display_entertaing_message()
