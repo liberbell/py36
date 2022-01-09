@@ -6,4 +6,4 @@ def non_negative_argument(decorated_fn):
     def check_non_negative(*args):
         for arg in args:
             if arg <= 0:
-                raise ValueError("")
+                raise ValueError("Argument cannot be negative or zero")
