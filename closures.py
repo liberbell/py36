@@ -85,3 +85,17 @@ def formal_greeting():
     print("Greeting in the outer function: ", greeting)
 
 formal_greeting()
+
+def formal_greeting():
+    greeting = "How are you doing"
+
+    def informal_greeting():
+        nonlocal greeting
+
+        greeting = "Hi there!"
+        print("Greeting in the inner function: ", greeting)
+    
+    informal_greeting()
+    print("Greeting in the outer function: ", greeting)
+
+formal_greeting()
