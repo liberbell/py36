@@ -67,9 +67,16 @@ print(add_to_sales_fn)
 add_to_engineering_fn = add_employee_to_department("engineering")
 print(add_to_sales_fn)
 
-add_to_sales_fn("Alex")
-add_to_sales_fn("Eric")
-add_to_sales_fn("Ed")
-add_to_engineering_fn("George")
-add_to_engineering_fn("Bob")
-add_to_engineering_fn("Elton")
+# add_to_sales_fn("Alex")
+# add_to_sales_fn("Eric")
+# add_to_sales_fn("Ed")
+# add_to_engineering_fn("George")
+# add_to_engineering_fn("Bob")
+# add_to_engineering_fn("Elton")
+
+def formal_greeting():
+    greeting = "How are you doing"
+
+    def informal_greeting():
+        greeting = "Hi there!"
+        print("Greeting in the inner function: ", greeting)
