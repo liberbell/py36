@@ -68,3 +68,5 @@ add_to_engineering_fn = add_employee_to_department("engineering")
 print(add_to_sales_fn)
 
 add_to_sales_fn("Alex")
+add_to_sales_fn("Eric")
+add_to_sales_fn("Ed")
