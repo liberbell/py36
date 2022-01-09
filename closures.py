@@ -83,3 +83,5 @@ def formal_greeting():
     
     informal_greeting()
     print("Greeting in the outer function: ", greeting)
+
+formal_greeting()
