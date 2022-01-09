@@ -80,3 +80,6 @@ def formal_greeting():
     def informal_greeting():
         greeting = "Hi there!"
         print("Greeting in the inner function: ", greeting)
+    
+    informal_greeting()
+    print("Greeting in the outer function: ", greeting)
