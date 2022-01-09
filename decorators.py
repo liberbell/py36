@@ -14,3 +14,5 @@ def non_negative_argument(decorated_fn):
 
 def display_important_message():
     print("This is an important message.")
+
+display_important_message()
