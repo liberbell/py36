@@ -16,3 +16,8 @@ def display_important_message():
     print("This is an important message.")
 
 display_important_message()
+
+def display_boring_message():
+    print("This is a boring message....")
+
+display_boring_message()
