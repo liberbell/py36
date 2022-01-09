@@ -7,3 +7,7 @@ def non_negative_argument(decorated_fn):
         for arg in args:
             if arg <= 0:
                 raise ValueError("Argument cannot be negative or zero")
+
+            return decorated_fn(*args)
+
+        return check_non_negative
