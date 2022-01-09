@@ -99,3 +99,4 @@ def formal_greeting():
     print("Greeting in the outer function: ", greeting)
 
 formal_greeting()
+
