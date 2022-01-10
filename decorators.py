@@ -57,3 +57,7 @@ def display_important_message():
 @emphasize
 def display_boring_message():
     print("This is a boring message....")
+
+@emphasize
+def display_entertaining_message():
+    print("This is an entertaining message.")
