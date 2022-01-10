@@ -1,3 +1,5 @@
+import math
+
 # @non_negative_argument
 def compute_rectangle_area(lenght, breadth):
     return lenght * breadth
@@ -65,3 +67,7 @@ def display_entertaining_message():
 display_important_message()
 display_boring_message()
 display_entertaining_message()
+
+def compute_circle_area(radius):
+    return math.pi* radius * radius
+
