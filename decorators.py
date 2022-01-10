@@ -68,11 +68,11 @@ display_important_message()
 display_boring_message()
 display_entertaining_message()
 
-def compute_circle_area(radius):
-    return math.pi* radius * radius
+# def compute_circle_area(radius):
+#     return math.pi* radius * radius
 
-print(compute_circle_area(11))
-print(compute_circle_area(-11))
+# print(compute_circle_area(11))
+# print(compute_circle_area(-11))
 
 def non_negative_arguments(decorated_fn):
     def check_non_negative(arg):
@@ -84,8 +84,7 @@ def non_negative_arguments(decorated_fn):
 # print(non_negative_argument(11))
 # print(non_negative_argument(-11))
 
-@non_negative_argument
+# @non_negative_argument
 def compute_circle_area(radius):
     return math.pi * radius * radius
-compute_circle_area(11)
-compute_circle_area(-11)
+print(compute_circle_area(11))
