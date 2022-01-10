@@ -43,4 +43,7 @@ def emphasize(display_fn):
     return emphasize_message
 
 emphasize_add_display_important_message = emphasize(display_important_message)
-emphasize_add_display_important_message
+print(emphasize_add_display_important_message)
+
+emphasize_add_display_entertainment_message = emphasize(display_entertaing_message)
+print(emphasize_add_display_entertainment_message)
