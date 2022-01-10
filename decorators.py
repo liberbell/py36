@@ -107,7 +107,7 @@ def non_negative_arguments2(decorated_fn):
             if arg <= 0:
                 raise ValueError("Input argument cannot be negative.")
 
-        return decorated_fn(arg)
+        return decorated_fn(*args)
     return check_non_negative
 
 @non_negative_arguments2
