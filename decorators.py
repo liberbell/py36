@@ -71,3 +71,4 @@ display_entertaining_message()
 def compute_circle_area(radius):
     return math.pi* radius * radius
 
+print(compute_circle_area(11))
