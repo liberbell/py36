@@ -31,3 +31,5 @@ def emphasize_message(display_fn):
     print("*******************************")
     display_fn()
     print("*******************************")
+
+emphasize_message(display_important_message)
