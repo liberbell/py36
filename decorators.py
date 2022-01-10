@@ -92,7 +92,7 @@ def compute_circle_area(radius):
 print(compute_circle_area(12))
 # print(compute_circle_area(-12))
 
-print(comupte_circle)
+# print(comupte_circle)
 
 @non_negative_arguments1
 def compute_rectangle_area(length, breadth):
