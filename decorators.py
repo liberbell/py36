@@ -81,5 +81,11 @@ def non_negative_arguments(decorated_fn):
         return decorated_fn(arg)
     return check_non_negative
 
-print(non_negative_argument(11))
-print(non_negative_argument(-11))
+# print(non_negative_argument(11))
+# print(non_negative_argument(-11))
+
+@non_negative_argument
+def compute_circle_area(radius):
+    return math.pi* radius * radius
+print(compute_circle_area(11))
+print(compute_circle_area(-11))
