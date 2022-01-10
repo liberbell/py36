@@ -77,4 +77,5 @@ print(compute_circle_area(-11))
 def non_negative_arguments(decorated_fn):
     def check_non_negative(arg):
         if arg < 0:
-            raise ValueError("Input")
+            raise ValueError("Input argument cannot be negative.")
+        return decorated_fn(arg)
