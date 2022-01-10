@@ -49,3 +49,11 @@ emphasize_add_display_entertainment_message = emphasize(display_entertaing_messa
 print(emphasize_add_display_entertainment_message)
 
 emphasize_add_display_important_message()
+
+@emphasize
+def display_important_message():
+    print("This is an important message.")
+
+@emphasize
+def display_boring_message():
+    print("This is a boring message....")
