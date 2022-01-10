@@ -26,3 +26,8 @@ def display_entertaing_message():
     print("This is an entertaining message....")
 
 display_entertaing_message()
+
+def emphasize_message(display_fn):
+    print("*******************************")
+    display_fn()
+    print("*******************************")
