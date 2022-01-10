@@ -109,3 +109,9 @@ def non_negative_arguments2(decorated_fn):
 
         return decorated_fn(arg)
     return check_non_negative
+
+@non_negative_arguments2
+def compute_rectangle_area(length, breadth):
+    return length * breadth
+
+print(compute_rectangle_area(5, 10))
