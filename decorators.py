@@ -86,6 +86,6 @@ def non_negative_arguments(decorated_fn):
 
 @non_negative_argument
 def compute_circle_area(radius):
-    return math.pi* radius * radius
-print(compute_circle_area(11))
-print(compute_circle_area(-11))
+    return math.pi * radius * radius
+compute_circle_area(11)
+compute_circle_area(-11)
