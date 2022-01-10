@@ -94,8 +94,18 @@ print(compute_circle_area(12))
 
 # print(comupte_circle)
 
-@non_negative_arguments1
-def compute_rectangle_area(length, breadth):
-    return length * breadth
+# @non_negative_arguments1
+# def compute_rectangle_area(length, breadth):
+#     return length * breadth
 
-print(compute_rectangle_area(5, 10))
+# print(compute_rectangle_area(5, 10))
+
+def non_negative_arguments2(decorated_fn):
+
+    def check_non_negative(*args):
+        for arg in args:
+            if arg <= 0:
+                raise ValueError("Input argument cannot be negative.")
+
+        return decorated_fn(arg)
+    return check_non_negative
