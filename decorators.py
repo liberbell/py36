@@ -75,6 +75,7 @@ display_entertaining_message()
 # print(compute_circle_area(-11))
 
 def non_negative_arguments(decorated_fn):
+
     def check_non_negative(arg):
         if arg < 0:
             raise ValueError("Input argument cannot be negative.")
@@ -87,4 +88,5 @@ def non_negative_arguments(decorated_fn):
 # @non_negative_argument
 def compute_circle_area(radius):
     return math.pi * radius * radius
-print(compute_circle_area(11))
+print(compute_circle_area(12))
+print(compute_circle_area(-12))
