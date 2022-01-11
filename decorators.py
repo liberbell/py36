@@ -119,4 +119,5 @@ print(compute_rectangle_area(5, 10))
 @non_negative_arguments2
 def compute_circle_area(radius):
     return math.pi * radius * radius
-print(compute_circle_area(12))
+print(compute_circle_area(4))
+print(compute_circle_area(-44))
